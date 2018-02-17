@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="true">
+
+    <LinearLayout style="@style/main_layout_and_orientation">
+
+        <TextView
+            android:id="@+id/header"
+            style="@style/header"
+            android:layout_marginEnd="@dimen/standard"
+            android:layout_marginStart="@dimen/standard"
+            android:layout_marginTop="@dimen/standard"
+            android:text="@string/header_text"
+            android:textSize="@dimen/header"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/theme_image"
+            style="@style/image"
+            android:layout_marginEnd="@dimen/standard"
+            android:layout_marginStart="@dimen/standard"
+            android:layout_marginTop="@dimen/quarter"
+            android:background="@drawable/rounded_shape"
+            android:contentDescription="@string/breakfast"
+            android:foreground="@drawable/rounded_fg"
+            android:src="@drawable/breakfast" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/description"
+            android:layout_marginEnd="@dimen/standard"
+            android:layout_marginStart="@dimen/standard"
+            android:layout_marginTop="@dimen/half"
+            android:background="@drawable/rounded_shape"
+            android:paddingEnd="@dimen/standard"
+            android:paddingStart="@dimen/standard"
+            android:text="@string/description"
+            android:textSize="@dimen/description" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginEnd="@dimen/double_standard"
+            android:layout_marginStart="@dimen/double_standard"
+            android:layout_marginTop="@dimen/quarter"
+            android:background="@color/blue" />
+
+        <LinearLayout
+            style="@style/container_data_layout_portrait"
+            android:layout_marginTop="@dimen/quarter"
+            android:background="@drawable/rounded_shape">
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/text_container_name"
+                android:drawableStart="@drawable/name"
+                android:text="@string/header_text_2"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/data"
+                style="@style/text_container"
+                android:drawableStart="@drawable/location"
+                android:text="@string/address_data"
+                android:textColorLink="@color/colorlink" />
+
+            <TextView
+                android:id="@+id/phone"
+                style="@style/text_container"
+                android:autoLink="phone"
+                android:drawableStart="@drawable/phone"
+                android:text="@string/phone_number"
+                android:textColorLink="@color/colorlink" />
+
+            <TextView
+                android:id="@+id/webpage"
+                style="@style/text_container"
+                android:layout_marginTop="@dimen/two"
+                android:autoLink="web"
+                android:drawableStart="@drawable/www"
+                android:text="@string/www"
+                android:textColorLink="@color/colorlink" />
+
+            <TextView
+                android:id="@+id/on"
+                style="@style/text_container"
+                android:drawableStart="@drawable/hours"
+                android:text="@string/opening"
+                android:textColorLink="@color/colorlink" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

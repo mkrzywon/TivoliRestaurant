@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tivoli Restaurant</string>
+    <string name="header_text">Cafe - Restaurant Tivoli</string>
+    <string name="header_text_2">Cafe - Restaurant\nTivoli</string>
+    <string name="breakfast">breakfast</string>
+    <string name="description">The restaurant serves traditional polish food. Homemade meals are prepared based on proven recipes. We organize special events: communion parties, weddings, birthdays and business meetings.</string>
+    <string name="id">id_card</string>
+    <string name="address">address</string>
+    <string name="address_data">ul. Zlotoryjska 21\n59&#8211;220 Legnica</string>
+    <string name="number">telephone_number</string>
+    <string name="phone_number">+48 76 86 223 04</string>
+    <string name="webpage">web page</string>
+    <string name="www">restauracjativoli.pl</string>
+    <string name="hours">hours of operation</string>
+    <string name="opening">Opening hours\nMonday - Sunday:\n9:00am - 11:00pm  </string>
+</resources>
